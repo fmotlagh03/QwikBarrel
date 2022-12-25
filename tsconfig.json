@@ -1,0 +1,22 @@
+{
+    "extends": "./tsconfig.base",
+    "compilerOptions": {
+        "paths": {
+            "Base": [
+                "src/Base/Exports"
+            ],
+            "Shared": [
+                "src/components/Shared/Exports.jsx"
+            ],
+            "Blog": [
+                "src/Modules/Blog/Exports.jsx"
+            ],
+            "BlogPage": [
+                "src/components/Blog/Exports.jsx"
+            ],
+            "Configuration": [
+                "src/Modules/Configuration/Exports.jsx"
+            ]
+        }
+    }
+}
